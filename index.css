@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+section {
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+li span {
+  margin-left: 2rem;
+}
+
+.imageDemo {
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+}
+
+
+/* Newest */
+.listParent {
+  border: 0;
+}
+
+.listParent option {
+  padding: 1rem;
+}
+
+.listParent option:focus {
+  background-color: #0870d9;
+  }
+
+.listParent option:hover {
+background-color: #0870d9;
+}
+
+.listParent option:checked {
+  background-color: #0870d9;
+}
+
+.listParent option:checked:hover {
+  background-color: #0870d9;
+}
